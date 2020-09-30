@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:background="#061C49">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Register"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_baseline_account_box_24"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:textSize="18sp"
+        android:background="@drawable/edit_box"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint=" Enter Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edit_box"
+        android:hint=" Enter Email"
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+        android:id="@+id/phone"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edit_box"
+        android:hint=" Enter Phone No."
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:id="@+id/pswd"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edit_box"
+        android:hint=" Enter Passsword"
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:id="@+id/cnfpswd"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edit_box"
+        android:hint=" Enter Confirm Passsword"
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/regs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/edit_box"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:text=" Register"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:focusable="false"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:id="@+id/dob"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edit_box"
+        android:hint=" Enter D.O.B."
+        android:paddingHorizontal="25sp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/prog"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"/>
+
+</FrameLayout>
+
+</ScrollView>
